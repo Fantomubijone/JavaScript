@@ -1,0 +1,108 @@
+body {
+  font-family: "Arial", sans-serif;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+
+.Resume {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Layout {
+  width: 180mm;
+  height: auto;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 2px solid #000000;
+  padding: 70px;
+  margin: 40px;
+  box-shadow: 15px 15px 15px rgba(0, 0, 0, 1);
+  transition: background-color 0.5s ease;
+}
+
+.top-content {
+  flex: 1;
+  display: flex;
+}
+
+.left-content {
+  flex: 2;
+}
+
+.left-content p {
+  margin: 5px;
+}
+
+.right-content {
+  flex: 1;
+  text-align: right;
+}
+
+.divider {
+  border-top: 2px solid #000000;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.name {
+  font-size: 30px;
+}
+
+.section-header {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+.Overview p {
+  margin: 15px 0;
+  line-height: 1.5;
+  font-size: 13px;
+}
+
+.WorkExperience p,
+.Awards p {
+  margin: 10px 0;
+  line-height: 1.4;
+  font-size: 13px;
+}
+
+.Education p {
+  margin: 12px 0;
+  line-height: 1.4;
+  font-size: 13px;
+}
+
+.education-level {
+  padding-top: 20px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.school-logo {
+  max-width: 80px;
+  height: auto;
+  margin-right: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  height: 50px;
+  text-decoration: none;
+  border: 2px solid #000000;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 30px;
+  margin: 40px;
+  background-color: #fff;
+  font-weight: bold;
+}
+
+button:hover {
+  transform: scale(1.1);
+  background-color: grey;
+  color: #fff;
+}
